@@ -43,7 +43,7 @@ const Cart = () => {
                     <div> <h1 className="flex items-center justify-center mt-5"> Product</h1></div>
                     <div> <h1 className="flex items-center justify-center mt-5"> Price</h1></div>
                     <div> <h1 className="flex items-center justify-center mt-5">  Quantity</h1></div>
-                    <div> <h1 className="flex items-center justify-center mt-5"> Subtotal</h1></div>
+                    // <div> <h1 className="flex items-center justify-center mt-5"> Subtotal</h1></div>
                 </div>
                 {items.map((data, index) => (
                     <div key={index}>
@@ -74,7 +74,7 @@ const Cart = () => {
                             </div>
 
                         ))} </div>
-                        <div> <h1 className="flex items-center justify-center mt-5">{totalPrice}</h1></div>
+                        // <div> <h1 className="flex items-center justify-center mt-5">{totalPrice}</h1></div>
                     </div>
                     </div>
                 ))}
